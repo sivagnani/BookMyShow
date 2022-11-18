@@ -1,3 +1,173 @@
 body{
-    color:white;
+    margin: 0px;
+}
+.topHeader{
+    width: 100%;
+    height: 64px;
+    padding: 0px;
+    background: rgb(51, 53, 69);
+}
+.secondHeader{
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    background: rgb(34, 37, 57);;
+}
+.logoDiv{
+    width: 75%;
+}
+.align{
+    align-items: center;
+}
+.height{
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    width:92%;
+    height: 100%;
+    margin: 0px auto;
+}
+.pic{
+    margin-top: 10px;
+}
+.logo{
+    margin-right: 16px;
+}
+#searchInput{
+    width: 100%;
+    height: 50%;
+    cursor: text;
+}
+#find{
+    border-width: 0px;
+    width: 100%;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.search{
+    border-radius: 5px;
+    height: 50%;
+    width: calc(100% - 134px);
+    max-width: 550px;
+    padding: 10px;
+    background-color: white;
+}
+:focus-visible{
+    outline: 0px;
+}
+.location{
+    cursor: pointer;
+    color: #cccccc;
+    margin-right: 24px;
+}
+.white{
+    color: white;
+}
+#location{
+    margin-right: 10px;
+    color: inherit;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    max-width: 90px;
+    white-space: nowrap;
+    height: 19px;
+    overflow: hidden;
+}
+p{
+    margin: 0px;
+}
+.location:hover{
+    color: white;
+}
+
+.glass{
+    color: #333333;
+}
+#signin{
+    color: white;
+    height: 25px;
+    line-height: 25px;
+    background-color: rgb(248, 68, 101);
+    width: 67px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+}
+.font{
+    font-family: Roboto,sans-serif;
+}
+.menu{
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 24px;
+}
+.Pages{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: -1;
+    position: fixed;
+    top:0;
+}
+#searchCity{
+    max-width: 975px;
+    min-width: 600px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+#searchBar{
+    padding: 15px;
+}
+#searchDiv{
+    height: 45px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 2px;
+}
+#search{
+    width: 100%;
+    border-width: 0px;
+    font-size: 12px;
+    text-indent: 15px;
+}
+.width{
+    width: 100%;
+}
+.glass{
+    height: 35px;
+    width: 40px;
+}
+.center{
+    justify-content: center;
+}
+.whitebg{
+    background-color: white;
+}
+.cities{
+    padding: 15px 6px;
+    font-size: 14px;
+    color: #333333;
+    flex-direction: column;
+}
+.textalign{
+    text-align: center;
+}
+.pointer{
+    cursor: pointer;
+}
+.listCities{
+    justify-content: space-evenly;
+    width: 100%;
+}
+#signin:hover{
+    cursor: pointer;
+}
+.none{
+    display: none;
 }

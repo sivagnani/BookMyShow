@@ -1,3 +1,100 @@
-<html>
-    <head></head>
-</html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="../JS/bms.js"></script>
+            <script src="https://kit.fontawesome.com/d3bacb5a87.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" media="screen and (min-device-width: 1025px)" href="../css/bms.css"/>
+        </head>
+        <body>
+            <div id="mainPage">
+                <header>
+                    <div class="topHeader">
+                        <div class="head">
+                            <div class="logoDiv flex align height">
+                                <div id="headerlogo">
+                                    <a href="bms.html" class="logo"><img class="pic" src="../media/bmslogo.PNG"></a>
+                                </div>
+                                <div id="searchInput">
+                                    <div class="search flex align height">
+                                        <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+                                        <input type="text" id="find" placeholder="Search for Movies, Events, Plays, Sports and Activities">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="locationDiv flex align height">
+                                <div class="location flex align height" id="locationHolder">
+                                    <p id="location" class="font">Select your city</p>
+                                    <i class="fa-sharp fa-solid fa-caret-down fa-xs white"></i>
+                                </div>
+                                <div id="signin" class="font">Sign in</div>
+                                <div><i class="fa-solid fa-bars menu"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="secondHeader">
+
+                    </div>
+                </header>
+            </div>
+            <div id="locationPage" class="none height center pages">
+                <div id="searchCity">
+                    <div id="searchBar" class="whitebg">
+                        <div id="searchDiv" class="flex align">
+                            <div class="glass flex center align">
+                                <i class="fa-solid fa-magnifying-glass fa-sm g"></i>
+                            </div>
+                            <div class="width">
+                                <input type="text" id="search" placeholder="search for your city">
+                            </div>
+                        </div>
+                        <div class="cities font align flex">
+                            <p>Popular Cities</p>
+                            <div class="listCities flex" id="cityList">
+                                <div class="eachCity pointer" id="Mumbai">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/mumbai.png" id="Mumbaiimg"/>
+                                    <p class="textalign">Mumbai</p>
+                                </div>
+                                <div class="eachCity pointer" id="Delhi-NCR">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/ncr.png" id="Delhi-NCRimg"/>
+                                    <p class="textalign">Delhi-NCR</p>
+                                </div>
+                                <div class="eachCity pointer" id="Banglore">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/bang.png" id="Bangloreimg"/>
+                                    <p class="textalign">Banglore</p>
+                                </div>
+                                <div class="eachCity pointer" id="Hyderabad">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/hyd.png" id="Hyderabadimg"/>
+                                    <p class="textalign">Hyderabad</p>
+                                </div>
+                                <div class="eachCity pointer" id="Ahmedabad">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/ahd.png" id="Ahmedabadimg"/>
+                                    <p class="textalign">Ahmedabad</p>
+                                </div>
+                                <div class="eachCity pointer" id="Chandigarh">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/chd.png" id="Chandigarhimg"/>
+                                    <p class="textalign">Chandigarh</p>
+                                </div>
+                                <div class="eachCity pointer" id="Chennai">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/chen.png" id="Chennaiimg"/>
+                                    <p class="textalign">Chennai</p>
+                                </div>
+                                <div class="eachCity pointer" id="Pune">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/pune.png" id="Puneimg"/>
+                                    <p class="textalign">Pune</p>
+                                </div>
+                                <div class="eachCity pointer" id="Kolkata">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/kolk.png" id="Kolkataimg"/>
+                                    <p class="textalign">Kolkata</p>
+                                </div>
+                                <div class="eachCity pointer" id="Kochi">
+                                    <img src="https://in.bmscdn.com/m6/images/common-modules/regions/koch.png" id="Kochiimg"/>
+                                    <p class="textalign">Kochi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
